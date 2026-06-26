@@ -50,7 +50,7 @@ Todo o processamento acontece localmente no computador, sem necessidade de conex
 
 <div align="center">
 
-<img src="gerenciador.png" width="800">
+<img src="assets/gerenciador.png" width="800">
 
 </div>
 
