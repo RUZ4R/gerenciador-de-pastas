@@ -123,7 +123,7 @@ janela.geometry("700x500")
 janela.resizable(False, False)
 janela.title("Gerenciador de Pastas  v.0.1.0")
 janela._set_appearance_mode('Dark')
-janela.iconbitmap('ico.ico')
+janela.iconbitmap('./assets/ico.ico')
 
 #BOTOES
 buton_vazias = ctk.CTkButton(janela, text='APAGAR PASTAS VAZIAS', bg_color='transparent', fg_color='teal',
@@ -176,7 +176,7 @@ caminho_text = ctk.CTkLabel(janela, text='Selecione o caminho da pasta:', bg_col
 qtde_text = ctk.CTkLabel(janela, text='Digite a quantidade', bg_color='transparent', text_color='#fff',
                            font=('arial black', 15)).place(x=205, y=120)
 
-img = ctk.CTkImage(dark_image=Image.open("./imagem.png"), size=(200,200))
+img = ctk.CTkImage(dark_image=Image.open("./assets/imagem.png"), size=(200,200))
 img_label = ctk.CTkLabel(janela, text=None, bg_color='transparent',
                            image=img).place(x=470, y=280)
 
