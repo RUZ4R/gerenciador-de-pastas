@@ -58,55 +58,51 @@ Todo o processamento acontece localmente no computador, sem necessidade de conex
 
 # 📂 Estrutura do Projeto
 
-```text
-Gerenciador-de-Pastas/
+GerenciadorDePastas/
 │
+├── GerenciadorDePastas.exe
 ├── assets/
-│   └── interface.png
-│
-├── main.py
-├── requirements.txt
-├── README.md
-└── demais arquivos...
-```
+├── demais arquivos...
+
 
 > **Importante:** Todos os arquivos do projeto devem permanecer no mesmo diretório para garantir o funcionamento correto da aplicação.
 
 ---
 
-# 🚀 Instalação
+# 🚀 Instalação (Windows)
 
-## 1️⃣ Clone o repositório
+## 1️⃣ Baixe o programa
 
-```bash
-git clone https://github.com/RUZ4R/gerenciador-de-pastas.git
-```
-
-Entre na pasta do projeto:
-
-```bash
-cd gerenciador-de-pastas
-```
+Acesse a página de **Releases** deste repositório e baixe a versão mais recente do **GerenciadorDePastas.exe**.
 
 ---
 
-## 2️⃣ Instale as dependências
+## 2️⃣ Extraia os arquivos
 
-```bash
-pip install -r requirements.txt
-```
+Se o download estiver em formato **.rar**, extraia todo o conteúdo para uma pasta de sua preferência.
+
+> **Importante:** Não mova apenas o arquivo `.exe`. Mantenha todos os arquivos extraídos na mesma pasta para garantir o funcionamento correto da aplicação.
 
 ---
 
 ## 3️⃣ Execute o programa
 
-```bash
-python main.py
-```
+Dê um duplo clique em **GerenciadorDePastas.exe**.
 
-Após a execução, a interface gráfica será aberta automaticamente.
+Se o Windows exibir um aviso de segurança:
+
+- Clique em **Mais informações**.
+- Em seguida, clique em **Executar assim mesmo**.
+
+Pronto!
+
+O Gerenciador de Pastas será aberto e estará pronto para uso.
 
 ---
+
+## 💡 Observação
+
+Caso o Windows Defender ou outro antivírus apresente um alerta, isso pode acontecer porque o programa não possui assinatura digital. Se o arquivo foi baixado diretamente deste repositório, basta permitir a execução.
 
 # 📝 Como utilizar
 
@@ -159,10 +155,8 @@ Todos os nomes serão convertidos automaticamente.
 
 # ⚙️ Requisitos
 
-- Windows
-- Python 3.10 ou superior
-- Dependências presentes em `requirements.txt`
-
+- Windows 10 ou superior
+- Nenhuma instalação adicional é necessária
 ---
 
 # 💡 Vantagens
